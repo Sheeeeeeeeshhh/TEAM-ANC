@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  width: 100%;
+  height: 10vh;
+  background: linear-gradient(180deg, #f5ba42 0%, #c07e42 100%);
+  padding: 0px 20px 0px 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ref_buttons {
+  display: flex;
+}
+
+.ref_buttons h2 {
+  color: #4a2c15;
+
+  background-color: transparent;
+  font-size: 20px;
+
+  margin: 0px 20px;
+  position: relative;
+}
+
+.ref_buttons h2::after {
+  content: "";
+  height: 3px;
+  width: 0;
+  background: white;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  transition: 0.5s;
+}
+
+.ref_buttons h2:hover::after {
+  width: 100%;
+}
+
+.ref_buttons h2:hover {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}

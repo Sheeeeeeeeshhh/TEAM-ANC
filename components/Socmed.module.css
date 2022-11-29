@@ -1,0 +1,15 @@
+.socmed {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.socmed div {
+  margin: 10px;
+  color: #4a2c15;
+}
+
+.socmed div:hover {
+  color: white;
+  cursor: pointer;
+}

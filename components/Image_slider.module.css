@@ -1,0 +1,17 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+  background-color: #ffe9bb;
+}
+
+.swiperslide img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/*go to global.css and paste this sht to change pagination active bullets color
+.swiper-pagination-bullet-active {
+     background-color: #000 !important;
+}*/

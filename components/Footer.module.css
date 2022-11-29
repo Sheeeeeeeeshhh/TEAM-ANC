@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  background: linear-gradient(180deg, #f5ba42 0%, #c07e42 100%);
+  padding: 20px;
+}
+
+.line {
+  width: 100%;
+}
+
+.line hr {
+  background-color: #4a2c15;
+  height: 2px;
+  border: none;
+  margin: 20px;
+}
+
+.footer_buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.footer_buttons button {
+  color: #4a2c15;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 10px 20px;
+  border: none;
+  background-color: transparent;
+}
+
+.footer_buttons button:hover {
+  cursor: pointer;
+  color: white;
+  text-decoration: underline;
+}
