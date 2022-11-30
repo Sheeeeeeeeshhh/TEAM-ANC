@@ -1,0 +1,10 @@
+.line {
+  width: 100%;
+}
+
+.line hr {
+  background-color: #4a2c15;
+  height: 2px;
+  border: none;
+  margin: 20px 0px;
+}

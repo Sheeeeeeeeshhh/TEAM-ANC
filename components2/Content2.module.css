@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  background-color: #ffe9bb;
+  justify-content: center;
+  color: #4a2c15;
+  padding: 20px;
+  font-family: "Jacques Francois", serif;
+}
+
+.container h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.container_text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.container_text p {
+  font-size: 24px;
+  font-weight: 500;
+  padding: 10px 100px;
+  margin-top: 0;
+}

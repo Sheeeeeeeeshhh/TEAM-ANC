@@ -9,7 +9,7 @@ export default function Navbar() {
         <Weblogo1 />
       </div>
       <div className={styles.ref_buttons}>
-        <Link href="/anc">
+        <Link href="/home">
           <h2>HOME</h2>
         </Link>
 
