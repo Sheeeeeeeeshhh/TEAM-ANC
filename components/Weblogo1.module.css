@@ -4,6 +4,7 @@
 }
 .weblogo b {
   color: #ffe9bb;
+  text-shadow: 1px 1px 1px rgba(74, 44, 21, 0.42);
 }
 .weblogo img {
   width: 80px;
@@ -14,15 +15,12 @@
 .weblogo img:hover {
   cursor: pointer;
 }
-.name {
-  align-items: center;
-  color: aliceblue;
-}
 
 .name h1 {
   padding: 0;
   margin: 0;
   color: #4a2c15;
+  text-shadow: 1px 1px 1px rgba(74, 44, 21, 0.42);
 }
 
 .name p {
@@ -30,4 +28,5 @@
   margin: 0;
   color: #4a2c15;
   font-weight: 500;
+  text-shadow: 1px 1px 1px rgba(74, 44, 21, 0.42);
 }

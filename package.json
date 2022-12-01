@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@madzadev/image-slider": "^1.0.9",
     "next": "13.0.5",
     "next-images": "^1.8.4",
     "next-transpile-modules": "^10.0.0",

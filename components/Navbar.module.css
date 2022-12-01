@@ -20,6 +20,7 @@
 
   margin: 0px 20px;
   position: relative;
+  text-shadow: 1px 1px 1px rgba(74, 44, 21, 0.42);
 }
 
 .ref_buttons h2::after {
