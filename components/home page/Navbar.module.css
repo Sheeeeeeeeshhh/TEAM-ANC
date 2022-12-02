@@ -38,8 +38,12 @@
   width: 100%;
 }
 
-.ref_buttons h2:hover,
-.ref_buttons h2.active {
+.ref_buttons h2:hover {
   color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.activetab {
+  color: rgb(163, 16, 16);
   cursor: pointer;
 }

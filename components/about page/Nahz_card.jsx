@@ -1,22 +1,22 @@
-import styles from "./Ky_card.module.css";
+import styles from "./Nahz_card.module.css";
 import Image from "next/image";
-import ky from "../public/ky.jpg";
+import nahz from "../../public/nahz.jpg";
 
 import { BsFacebook } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
 import { BsTwitter } from "react-icons/bs";
 import { BsYoutube } from "react-icons/bs";
 
-export default function Ky_card() {
+export default function Nahz_card() {
   return (
     <div className={styles.container}>
-      <Image src={ky} />
-      <h3>Kyrus Amir Lumagui</h3>
-      <h4>Web Developer</h4>
+      <Image src={nahz} />
+      <h3>Zhan Cyrus Fabian</h3>
+      <h4>Web Designer</h4>
 
       <div className={styles.socmed}>
         <div>
-          <a href="hhttps://www.facebook.com/Kyrus.Lumagui">
+          <a href="https://www.facebook.com/Zhan.Fabian/">
             <BsFacebook size={30} />
           </a>
         </div>

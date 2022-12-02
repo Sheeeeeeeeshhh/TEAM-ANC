@@ -1,6 +1,6 @@
 import styles from "./Jim_card.module.css";
 import Image from "next/image";
-import jim from "../public/jim.jpg";
+import jim from "../../public/jim.jpg";
 
 import { BsFacebook } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";

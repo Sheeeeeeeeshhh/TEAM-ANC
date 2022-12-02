@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "./Content.module.css";
 import Image_slider from "./Image_slider";
 
@@ -8,7 +9,9 @@ export default function Content() {
         Homemade food <br /> directly to your <br />
         home
       </h3>
-      <button>Order Now</button>
+      <button>
+        <Link href="/menu_page">Order Now</Link>
+      </button>
       <div className={styles.swiper}>
         <Image_slider />
       </div>

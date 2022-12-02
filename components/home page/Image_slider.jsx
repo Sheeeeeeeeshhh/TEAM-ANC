@@ -10,9 +10,9 @@ import "swiper/css/bundle";
 
 //Import ang mga images
 import Image from "next/image";
-import image1 from "../public/2020_01_21_chicken_adobo_1.jpg";
-import image2 from "../public/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2019__10__20191023-chicken-adobo-vicky-wasik-19-12ce105a2e1a44dfb1e2673775118064.jpg";
-import image3 from "../public/128699-famous-hicken-adobo-ddmfs-117-1x1-1-3bef902d58434edfa04a4f1cb7d1a208.jpg";
+import image1 from "../../public/2020_01_21_chicken_adobo_1.jpg";
+import image2 from "../../public/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2019__10__20191023-chicken-adobo-vicky-wasik-19-12ce105a2e1a44dfb1e2673775118064.jpg";
+import image3 from "../../public/128699-famous-hicken-adobo-ddmfs-117-1x1-1-3bef902d58434edfa04a4f1cb7d1a208.jpg";
 
 import styles from "./Image_slider.module.css";
 

@@ -1,22 +1,22 @@
-import styles from "./Nahz_card.module.css";
+import styles from "./Ching_card.module.css";
 import Image from "next/image";
-import nahz from "../public/nahz.jpg";
+import ching from "../../public/ching.jpg";
 
 import { BsFacebook } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
 import { BsTwitter } from "react-icons/bs";
 import { BsYoutube } from "react-icons/bs";
 
-export default function Nahz_card() {
+export default function Ching_card() {
   return (
     <div className={styles.container}>
-      <Image src={nahz} />
-      <h3>Zhan Cyrus Fabian</h3>
-      <h4>Web Designer</h4>
+      <Image src={ching} />
+      <h3>Christine De Luna</h3>
+      <h4>Project Manager</h4>
 
       <div className={styles.socmed}>
         <div>
-          <a href="https://www.facebook.com/Zhan.Fabian/">
+          <a href="https://www.facebook.com/christinejhane.deluna">
             <BsFacebook size={30} />
           </a>
         </div>

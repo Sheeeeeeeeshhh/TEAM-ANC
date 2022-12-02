@@ -1,5 +1,5 @@
 import styles from "./Weblogo1.module.css";
-import weblogo from "../public/anclogo.png";
+import weblogo from "../../public/anclogo.png";
 import Image from "next/image";
 import Link from "next/link";
 

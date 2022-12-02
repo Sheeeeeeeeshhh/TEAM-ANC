@@ -1,5 +1,5 @@
 import styles from "./Vision_mission.module.css";
-import Hr_line from "../components/Hr_line";
+import Hr_line from "../home page/Hr_line.jsx";
 
 export default function Vision_mission() {
   return (
