@@ -19,14 +19,14 @@ export default function Vision_mission() {
         <p>
           To satisfy and nourish our customers with wholesome, high-quality, and
           delectable food and outstanding service at a fair price.
-          <p>
-            To comprehend the shifting needs of our customers and continually
-            enhance the customer experience.
-          </p>
-          <p>
-            To make a positive social impact through programs that are in line
-            with our corporate social responsibility program.
-          </p>
+        </p>
+        <p>
+          To comprehend the shifting needs of our customers and continually
+          enhance the customer experience.
+        </p>
+        <p>
+          To make a positive social impact through programs that are in line
+          with our corporate social responsibility program.
         </p>
       </div>
     </div>

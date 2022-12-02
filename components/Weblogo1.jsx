@@ -1,12 +1,15 @@
 import styles from "./Weblogo1.module.css";
 import weblogo from "../public/anclogo.png";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Weblogo1() {
   return (
     <div className={styles.container}>
       <div className={styles.weblogo}>
-        <Image src={weblogo} alt="weblogo" />
+        <Link href="/home">
+          <Image src={weblogo} alt="weblogo" />
+        </Link>
 
         <div className={styles.name}>
           <h1>

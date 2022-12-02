@@ -17,12 +17,12 @@ export default function Socmed() {
       </div>
       <div>
         <a href="https://www.instagram.com">
-          <BsInstagram size={30} />{" "}
+          <BsInstagram size={30} />
         </a>
       </div>
       <div>
         <a href="https://twitter.com/home">
-          <BsTwitter size={30} />{" "}
+          <BsTwitter size={30} />
         </a>
       </div>
       <div>
