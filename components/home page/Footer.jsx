@@ -3,6 +3,8 @@ import Weblogo2 from "./Weblogo2";
 import Socmed from "./Socmed";
 import Hr_line from "./Hr_line";
 
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <div className={styles.container}>
@@ -10,7 +12,9 @@ export default function Footer() {
       <Hr_line />
       <Socmed />
       <div className={styles.footer_buttons}>
-        <button>Home</button>
+        <button>
+          <Link href="/home">Home</Link>
+        </button>
         <button>Services</button>
         <button>Branches</button>
         <button>Terms</button>

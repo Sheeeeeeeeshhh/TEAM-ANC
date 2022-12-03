@@ -4,6 +4,7 @@ import Hr_line from "../home page/Hr_line.jsx";
 export default function Vision_mission() {
   return (
     <div className={styles.container}>
+      <Hr_line />
       <div className={styles.vision}>
         <h2>Our Vision</h2>
         <Hr_line />
@@ -29,6 +30,7 @@ export default function Vision_mission() {
           with our corporate social responsibility program.
         </p>
       </div>
+      <Hr_line />
     </div>
   );
 }

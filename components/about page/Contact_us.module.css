@@ -31,7 +31,8 @@
   border-radius: 10px;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Chicken_adobo.jpg/1200px-Chicken_adobo.jpg");
+  background-image: url("https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F44%2F2018%2F02%2F18%2F5147351.jpg&q=60");
+  background-size: 100%;
   background-position: cover;
 }
 
@@ -95,7 +96,7 @@
 
 .contact_us button {
   font-family: "Jacques Francois", serif;
-  color: #ededed;
+  color: #ffe9bb;
   font-size: 20px;
   margin: 10px;
   background: #4a2c15;
