@@ -1,5 +1,6 @@
 import styles from "./Card.module.css";
 import { useEffect, useState } from "react";
+import { MdBookmarkBorder } from "react-icons/md";
 
 export default function Card({ query }) {
   const [menus, setMenus] = useState([]);
@@ -35,7 +36,10 @@ export default function Card({ query }) {
                 alt="Food Image"
               />
             </div>
-            <h1 className={styles.card_title}>{menu.title}</h1>
+            <h1 className={styles.card_title}>
+              {menu.title}
+              <MdBookmarkBorder size={30} />
+            </h1>
             <h1 className={styles.card_body}>{menu.body}</h1>
             <h1 className={styles.card_price}>{menu.price}</h1>
             <button className={styles.card_button}> Add to Order </button>

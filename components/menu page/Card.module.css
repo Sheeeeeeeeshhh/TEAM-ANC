@@ -42,6 +42,10 @@
   margin-left: 6.86px;
   margin-bottom: 0px;
   margin-top: 6.33px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .card_body {
